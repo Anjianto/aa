@@ -1,0 +1,35 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826f7fc2e1b
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082644d25b5d
+modified: 1653566078788
+created: 1653015247618
+url: "{{ base_url }}/api/rename/{{ id }}"
+name: Rename item for authenticated master|editor user
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "blanditiis",
+      "type": "quos"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+    id: pair_d01223cd060346f1bb46e07deb7227e8
+  - name: Accept
+    disabled: true
+    value: string
+    id: pair_191ea4aed3f440a4a100f798733656ab
+authentication: {}
+metaSortKey: -1653015247618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

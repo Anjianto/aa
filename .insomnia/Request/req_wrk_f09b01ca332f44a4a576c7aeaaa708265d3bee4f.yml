@@ -1,0 +1,30 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708265d3bee4f
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826ee1acfa5
+modified: 1653029704493
+created: 1653015247736
+url: "{{ base_url }}/api/user/tokens"
+name: Create user tokens
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "jc"
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1653015247736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

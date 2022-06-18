@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082624673411
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262d4c9fdb
+modified: 1653015247586
+created: 1653015247586
+url: "{{ base_url }}/api/setup/app-setup"
+name: Store app settings
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247586
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

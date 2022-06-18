@@ -1,0 +1,30 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082602e63f46
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082685dfa32c
+modified: 1654314461076
+created: 1653015247751
+url: "{{ base_url }}/api/user"
+name: Get all user data for frontend
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_96360b148e274c98b65c0af16a4c8656
+  - name: Content-Type
+    value: application/json
+    id: pair_8514495c67e946c49c4febfc3d11597c
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247751
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

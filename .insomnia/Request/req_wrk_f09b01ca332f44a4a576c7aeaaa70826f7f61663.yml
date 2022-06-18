@@ -1,0 +1,30 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826f7f61663
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262f3b5c55
+modified: 1653547968043
+created: 1653015247717
+url: "{{ base_url }}/api/browse/latest"
+name: /api/browse/latest
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_e94a53107bfd4cdabb7f7ea57c30ff0e
+  - name: Content-Type
+    value: application/json
+    id: pair_8447c8b4b60841ae838d1a945980a6b9
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247717
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

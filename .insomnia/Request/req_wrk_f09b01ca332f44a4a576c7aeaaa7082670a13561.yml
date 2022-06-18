@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082670a13561
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826dc8dbeb2
+modified: 1653015247606
+created: 1653015247606
+url: "{{ base_url }}/api/admin/languages/{{ id }}"
+name: Delete the language with all children strings
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247606
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

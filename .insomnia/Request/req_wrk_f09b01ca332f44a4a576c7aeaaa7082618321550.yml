@@ -1,0 +1,28 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082618321550
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708266ce6c512
+modified: 1653015247626
+created: 1653015247626
+url: "{{ base_url }}/api/editor/upload/{{ shared }}"
+name: /api/editor/upload/{shared}
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

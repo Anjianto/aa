@@ -1,0 +1,32 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826df095992
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082603f09ba8
+modified: 1653025440829
+created: 1653015247643
+url: "{{ base_url }}/api/admin/users/{{ user }}/delete"
+name: Delete user with all user data
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "name": "snhfeoitpkwvagumkpsrrgylwmrtzrkojpuflzwqpybyvtayyktjhxmoyvmgedjhyqmtjktqebpxdfabjqkjkkilputnyocdaddwielcivklspqmgmnqhnuqbeqrylorsymjttzmmauneeoubwlpnnpjfwyznuypqhcmezhyeeesrtegjpolsopnhtvftcipqssdfsmueqterzpbraieosbdnkjpuixqgwyaelorvblkrduejjiuve"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247643
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

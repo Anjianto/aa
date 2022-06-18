@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708262512c8ff
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826070af021
+modified: 1653015247558
+created: 1653015247558
+url: "{{ base_url }}/api/upload-request/{{ uploadRequest }}/remove"
+name: /api/upload-request/{uploadRequest}/remove
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247558
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

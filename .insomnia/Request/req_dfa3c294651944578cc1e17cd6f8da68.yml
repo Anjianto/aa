@@ -1,0 +1,34 @@
+_id: req_dfa3c294651944578cc1e17cd6f8da68
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826ee1acfa5
+modified: 1653837295718
+created: 1653020686552
+url: "{{ base_url }}/api/get-token"
+name: get token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "nur.wachid@circle-creative.com",
+    	"password": "secret123!",
+    	"device_name": "test"
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_59d9895fba724fd498d31d67de904845
+  - name: Content-Type
+    value: application/json
+    id: pair_51c3b297ee5a423c9cfb632ad1e86f4e
+authentication: {}
+metaSortKey: -1653015247745
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

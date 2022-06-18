@@ -1,0 +1,35 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082600dbc048
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262f3b5c55
+modified: 1653547967229
+created: 1653015247722
+url: "{{ base_url }}/api/browse/search"
+name: /api/browse/search
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "query": "soluta"
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_d66f61145a0647e88b3576e48a7e7de6
+  - name: Content-Type
+    value: application/json
+    id: pair_e7c0b39af0dc494f81d6852a0e69eb1e
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

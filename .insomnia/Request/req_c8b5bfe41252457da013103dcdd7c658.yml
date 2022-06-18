@@ -1,0 +1,32 @@
+_id: req_c8b5bfe41252457da013103dcdd7c658
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708266ce6c512
+modified: 1654093672859
+created: 1653756028049
+url: "{{ base_url }}/file/097dbd8a-9ddc-4dbe-8856-7d9208a9f680.pdf"
+name: get file
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/html
+    id: pair_ed45b31d7a514fe79e2ca39fa8e9c9f9
+  - name: Accept
+    disabled: false
+    value: application/json
+    id: pair_31e4c376cb694365b652ab2ee79f5821
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247624.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826285b20cd
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826dc8dbeb2
+modified: 1653015247609
+created: 1653015247609
+url: "{{ base_url }}/api/admin/languages"
+name: Create new language
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "aspernatur",
+      "locale": "in"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247609
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

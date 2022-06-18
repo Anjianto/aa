@@ -1,0 +1,32 @@
+_id: req_757e49914d0e452f81eb7bc2c41adeeb
+type: Request
+parentId: fld_fe4964b773944604af9ffe5ddd864c49
+modified: 1654314480644
+created: 1653760223860
+url: "{{ base_url }}/api/sign/files"
+name: all files
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c8de65fa1e0c4cfe872d32c264b212bb
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_aebafe5189a34e1ba154d5a111ca8608
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653385842109
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

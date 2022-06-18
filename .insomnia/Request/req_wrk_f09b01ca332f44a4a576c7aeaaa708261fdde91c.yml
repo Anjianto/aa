@@ -1,0 +1,72 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708261fdde91c
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826ee1acfa5
+modified: 1653810370096
+created: 1653015247747
+url: "{{ base_url }}/api/register"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_f99b9d2984bb4981aaa382bdeeb335fa
+      name: email
+      value: nur.wachid@circle-creative.com
+      description: ""
+    - id: pair_13566907d51f48f4bd403854374568c2
+      name: name
+      value: Nur Wachid
+      description: ""
+    - id: pair_915a980f36a94d8997afa9f1d02af391
+      name: phone
+      value: "085225440011"
+      description: ""
+    - id: pair_56ed7135d7ed49f0807ae60d634a5bcb
+      name: nik
+      value: "3576014403910008"
+      description: ""
+      type: text
+      multiline: false
+    - id: pair_10979ce215e943179b75b191b2e9451c
+      name: ktp
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/wachid/Pictures/FKOrXO7WYAkzKdF.jpeg
+    - id: pair_b96e3a6327f040cf906b4b301b6558bf
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/wachid/Pictures/FKOrXO7WYAkzKdF.jpeg
+    - id: pair_cb84d9e8c0f4453eb82d1be7fe04eb5d
+      name: birth_place
+      value: pekalongan
+      description: ""
+    - id: pair_5602e6fb4bf94653af7498065927e436
+      name: birth_date
+      value: 1990-11-11
+      description: ""
+    - id: pair_c22248e637754d2eae53d9cea32e53ec
+      name: password
+      value: secret123!
+      description: ""
+    - id: pair_6cc6f9ae96824ba79b00578c4cfd645b
+      name: password_confirmation
+      value: secret123!
+      description: ""
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_270b0713ab3a42d5b8f98ef384679cc1
+authentication: {}
+metaSortKey: -1653015247747
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

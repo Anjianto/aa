@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082618c3511b
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262d4c9fdb
+modified: 1653015247587
+created: 1653015247587
+url: "{{ base_url }}/api/setup/purchase-code"
+name: Verify Envato purchase code
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247587
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

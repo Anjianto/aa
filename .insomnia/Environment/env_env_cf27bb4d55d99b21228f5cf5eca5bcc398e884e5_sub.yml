@@ -1,0 +1,15 @@
+_id: env_env_cf27bb4d55d99b21228f5cf5eca5bcc398e884e5_sub
+type: Environment
+parentId: env_cf27bb4d55d99b21228f5cf5eca5bcc398e884e5
+modified: 1653015247840
+created: 1653015247840
+name: OpenAPI env
+data:
+  scheme: http
+  base_path: ""
+  host: xignature-drive.test
+  bearerToken: bearerToken
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1653015247840

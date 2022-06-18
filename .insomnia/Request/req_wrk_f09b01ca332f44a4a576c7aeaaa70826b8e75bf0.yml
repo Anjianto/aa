@@ -1,0 +1,30 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826b8e75bf0
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262f3b5c55
+modified: 1653734234390
+created: 1653015247706
+url: "{{ base_url }}/api/browse/share"
+name: /api/browse/share
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_ebd0fda15beb4a149a0f3be37d359597
+  - name: Content-Type
+    value: application/json
+    id: pair_a91b32cd576b4c0f83dcc970e3311736
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247706
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

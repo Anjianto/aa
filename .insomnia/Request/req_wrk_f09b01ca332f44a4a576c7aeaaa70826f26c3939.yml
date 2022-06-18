@@ -1,0 +1,32 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826f26c3939
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826070af021
+modified: 1653015247553
+created: 1653015247553
+url: "{{ base_url }}/api/upload-request/{{ uploadRequest }}/move"
+name: /api/upload-request/{uploadRequest}/move
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "to_id": "7acc4168-818f-323a-8d14-edf60452e9f1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247553
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

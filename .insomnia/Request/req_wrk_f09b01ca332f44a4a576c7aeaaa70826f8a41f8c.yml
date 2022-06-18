@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826f8a41f8c
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826070af021
+modified: 1653015247555
+created: 1653015247555
+url: "{{ base_url }}/api/upload-request/{{ uploadRequest }}/browse/{{ folder }}"
+name: /api/upload-request/{uploadRequest}/browse/{folder}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247555
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

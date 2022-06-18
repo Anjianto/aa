@@ -1,0 +1,37 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708264632fdf9
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826070af021
+modified: 1653749807609
+created: 1653015247552
+url: "{{ base_url }}/api/upload-request"
+name: /api/upload-request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "vel",
+      "notes": "aut",
+      "folder_id": "qui",
+      "name": "est"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+    id: pair_c2b2f9edda474bb0862140e8b888819e
+  - name: Accept
+    disabled: true
+    value: string
+    id: pair_3e789b863476416dae90ea4af798458c
+authentication: {}
+metaSortKey: -1653015247552
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

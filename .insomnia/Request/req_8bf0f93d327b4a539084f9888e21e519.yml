@@ -1,0 +1,46 @@
+_id: req_8bf0f93d327b4a539084f9888e21e519
+type: Request
+parentId: fld_fe4964b773944604af9ffe5ddd864c49
+modified: 1653837425830
+created: 1653756436453
+url: "{{ base_url }}/api/sign/request"
+name: sign request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"file_id":  "1f497c00-a65c-4055-87ce-2972b9a6ee1e",
+    	"title": "File sample document",
+    	"reason": "sign to projects",
+    	"sign_page": 1,
+    	"sign_pos": {
+    		"x": 100,
+    		"y": 100
+    	},
+    	"share_document_to_customer": true,
+    	"otp": "972492"
+    }
+parameters: []
+headers:
+  - id: pair_8e707d2911214f84aa288b2c0bd9c663
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_c8de65fa1e0c4cfe872d32c264b212bb
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653756436453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

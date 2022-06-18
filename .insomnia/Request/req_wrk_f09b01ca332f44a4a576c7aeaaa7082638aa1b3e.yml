@@ -1,0 +1,33 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082638aa1b3e
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082630baa249
+modified: 1653015247621
+created: 1653015247621
+url: "{{ base_url }}/api/editor/create-folder/{{ shared }}"
+name: /api/editor/create-folder/{shared}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "parent_id": "1ec98197-dfc8-33d1-b809-e6510ebaec4a",
+      "name": "non"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247621
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826e63b11a2
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082685dfa32c
+modified: 1653021765929
+created: 1653015247765
+url: "{{ base_url }}/api/user/settings"
+name: Update user settings
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1653015247765
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

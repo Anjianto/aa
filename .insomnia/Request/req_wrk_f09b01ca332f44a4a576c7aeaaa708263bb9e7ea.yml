@@ -1,0 +1,32 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708263bb9e7ea
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082603f09ba8
+modified: 1653025443328
+created: 1653015247673
+url: "{{ base_url }}/api/admin/users/{{ user }}/capacity"
+name: Change user storage capacity
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "attributes": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247673
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

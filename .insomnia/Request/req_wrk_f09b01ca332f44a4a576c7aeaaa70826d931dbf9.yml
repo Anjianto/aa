@@ -1,0 +1,30 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826d931dbf9
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262f3b5c55
+modified: 1653756597490
+created: 1653015247726
+url: "{{ base_url }}/api/browse/folders/{{ id }}"
+name: /api/browse/folders/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_3706f8be6b6f41998b0a6e0e19f5f9a2
+  - name: Content-Type
+    value: application/json
+    id: pair_83e7231dc52646d7a472b56640099293
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247726
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826d560ee7a
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826c7f73bb5
+modified: 1653015247592
+created: 1653015247592
+url: "{{ base_url }}/api/admin/status"
+name: /api/admin/status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247592
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

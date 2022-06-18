@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082629a86810
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082644d25b5d
+modified: 1653015247613
+created: 1653015247613
+url: "{{ base_url }}/api/editor/remove/{{ shared }}"
+name: /api/editor/remove/{shared}
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247613
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

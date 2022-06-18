@@ -1,0 +1,39 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708267cbf6fec
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082678779bad
+modified: 1653015247584
+created: 1653015247584
+url: "{{ base_url }}/api/share"
+name: Generate file share link
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "isPassword": true,
+      "type": "molestiae",
+      "expiration": 4,
+      "permission": "delectus",
+      "password": "commodi",
+      "emails": [
+        "ekiehn@example.org"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247584
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

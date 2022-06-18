@@ -1,0 +1,33 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082692f9833b
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826070af021
+modified: 1653015247559
+created: 1653015247559
+url: "{{ base_url }}/api/upload-request/{{ uploadRequest }}/create-folder"
+name: /api/upload-request/{uploadRequest}/create-folder
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "parent_id": "83cd102d-6345-304b-a7ec-8b6eab7e1ef6",
+      "name": "iure"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247559
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

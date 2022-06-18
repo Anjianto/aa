@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826fb516a69
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826cbfd44d9
+modified: 1653015247576
+created: 1653015247576
+url: "{{ base_url }}/api/teams/invitations/{{ id }}"
+name: /api/teams/invitations/{id}
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247576
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826306bacfb
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826dc8dbeb2
+modified: 1653015247607
+created: 1653015247607
+url: "{{ base_url }}/api/admin/languages/{{ id }}"
+name: Update language
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "necessitatibus",
+      "value": "dolorem"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247607
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

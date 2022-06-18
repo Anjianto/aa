@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708264ca4f22b
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826cbfd44d9
+modified: 1653015247574
+created: 1653015247574
+url: "{{ base_url }}/api/teams/shared-with-me/{{ id }}"
+name: /api/teams/shared-with-me/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247574
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,12 @@
+_id: fld_wrk_f09b01ca332f44a4a576c7aeaaa708266ce6c512
+type: RequestGroup
+parentId: wrk_f09b01ca332f44a4a576c7aeaaa70826
+modified: 1653015247813
+created: 1653015247813
+name: Files
+description: |-
+  
+  guest user upload file into shared folder
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1653015247813

@@ -1,0 +1,49 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082608b5d1c7
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262d4c9fdb
+modified: 1653015247589
+created: 1653015247589
+url: "{{ base_url }}/api/setup/environment-setup"
+name: Store environment setup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "broadcast": [
+        "ut"
+      ],
+      "storage": [],
+      "environment": "qui",
+      "mailDriver": "exercitationem",
+      "smtp": [
+        "id"
+      ],
+      "ses": [
+        "aliquam"
+      ],
+      "mailgun": [
+        "aliquid"
+      ],
+      "postmark": [
+        "quas"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

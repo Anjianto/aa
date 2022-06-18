@@ -1,0 +1,25 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826d78fa9d8
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826ee1acfa5
+modified: 1653029703610
+created: 1653015247731
+url: "{{ base_url }}/api/user/tokens/"
+name: Delete user token
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1653015247731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

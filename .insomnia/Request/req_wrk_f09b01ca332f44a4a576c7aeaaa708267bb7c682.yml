@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708267bb7c682
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082678779bad
+modified: 1653015247585
+created: 1653015247585
+url: "{{ base_url }}/api/share/{{ token }}/email"
+name: /api/share/{token}/email
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247585
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

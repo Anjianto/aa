@@ -1,0 +1,32 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082636d2b45d
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082678779bad
+modified: 1653015247579
+created: 1653015247579
+url: "{{ base_url }}/api/browse/authenticate/{{ shared }}"
+name: Check Password for protected item
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "password": "illo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

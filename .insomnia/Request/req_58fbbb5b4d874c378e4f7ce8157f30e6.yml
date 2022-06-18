@@ -1,0 +1,28 @@
+_id: req_58fbbb5b4d874c378e4f7ce8157f30e6
+type: Request
+parentId: fld_fe4964b773944604af9ffe5ddd864c49
+modified: 1653837421315
+created: 1653760372038
+url: "{{ base_url }}/api/sign/generate-token"
+name: generate token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_c8de65fa1e0c4cfe872d32c264b212bb
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653107896351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,12 @@
+_id: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082644d25b5d
+type: RequestGroup
+parentId: wrk_f09b01ca332f44a4a576c7aeaaa70826
+modified: 1653015247800
+created: 1653015247800
+name: Items
+description: |-
+  
+  Rename item for guest user with edit permission
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1653015247800

@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826f45e27c2
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826600584c2
+modified: 1653015247601
+created: 1653015247601
+url: "{{ base_url }}/api/page"
+name: Get single page content
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247601
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

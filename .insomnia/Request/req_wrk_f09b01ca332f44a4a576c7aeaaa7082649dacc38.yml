@@ -1,0 +1,28 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082649dacc38
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826ee1acfa5
+modified: 1653021798566
+created: 1653015247740
+url: "{{ base_url }}/api/user/tokens"
+name: Get all user tokens
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247740
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

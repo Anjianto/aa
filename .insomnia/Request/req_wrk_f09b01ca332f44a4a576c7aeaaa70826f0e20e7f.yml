@@ -1,0 +1,32 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826f0e20e7f
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708262f3b5c55
+modified: 1653550043656
+created: 1653015247712
+url: "{{ base_url }}/api/browse/trash/Npq0c8SDt0Y4-Project Notes"
+name: /api/browse/trash/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_a76e4f2aee9c4ce1a34c4b445a09ad9d
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_eb9e8140b1da48658beab129a9fbff83
+    disabled: false
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247712
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

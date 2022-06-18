@@ -1,0 +1,33 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826ff6a2632
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826dc8dbeb2
+modified: 1653015247611
+created: 1653015247611
+url: "{{ base_url }}/api/admin/languages/{{ language }}/strings"
+name: Update language string
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "occaecati",
+      "value": "aut"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247611
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_cc6ee12ae17f4bce8a46520087a2ab3d
+type: Request
+parentId: fld_834e265b189c4d4ea8e09ad2aa753f37
+modified: 1653812351335
+created: 1653812152463
+url: https://sandbox.xignature.co.id/v1/document/upload_qr_logo
+name: upload QR
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: image
+      value: ""
+      id: pair_7d721626b61f492994b55fce5301ec82
+      type: file
+      fileName: /Users/wachid/Pictures/logo.png
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_270b0713ab3a42d5b8f98ef384679cc1
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e9e9df0870e247daab6e55be9b852f6a
+  - id: pair_bf5ebb40629f48caa7febeadde88e44d
+    name: api-key
+    value: aMIhFatJnGJHRQFB6fwgM4R22Lfrajnkbi5B
+    description: ""
+authentication: {}
+metaSortKey: -1653015247745.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

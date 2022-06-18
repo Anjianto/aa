@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826a63cdd46
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826d87f47b4
+modified: 1653015247690
+created: 1653015247690
+url: "{{ base_url }}/api/admin/dashboard/transactions"
+name: /api/admin/dashboard/transactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247690
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082634815de2
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082644d25b5d
+modified: 1653015247614
+created: 1653015247614
+url: "{{ base_url }}/api/editor/rename/{{ id }}/{{ shared }}"
+name: /api/editor/rename/{id}/{shared}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "ipsum",
+      "type": "eveniet"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247614
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

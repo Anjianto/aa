@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826ecd66b76
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082678779bad
+modified: 1653015247580
+created: 1653015247580
+url: "{{ base_url }}/api/share/{{ id }}"
+name: Delete sharing item
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247580
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

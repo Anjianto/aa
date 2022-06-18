@@ -1,0 +1,27 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082662e8a955
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082630baa249
+modified: 1653015247622
+created: 1653015247622
+url: "{{ base_url }}/api/folders/favourites/{{ id }}"
+name: Remove folder from user favourites
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

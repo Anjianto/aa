@@ -1,0 +1,34 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082629065d7d
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826b71c5271
+modified: 1653025316799
+created: 1653015247628
+url: "{{ base_url }}/api/admin/settings/payment-service"
+name: Configure stripe additionally
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "key": "quo",
+      "secret": "voluptas",
+      "webhook": "est"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247628
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

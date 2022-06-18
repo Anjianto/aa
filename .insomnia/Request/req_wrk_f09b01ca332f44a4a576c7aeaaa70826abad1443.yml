@@ -1,0 +1,37 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826abad1443
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826cbfd44d9
+modified: 1653015247571
+created: 1653015247571
+url: "{{ base_url }}/api/teams/folders/{{ id }}"
+name: /api/teams/folders/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "members": [
+        "sed"
+      ],
+      "invitations": [
+        "asperiores"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247571
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

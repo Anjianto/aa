@@ -1,0 +1,25 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826924c270e
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826ee1acfa5
+modified: 1653021778404
+created: 1653015247743
+url: "{{ base_url }}/api/socialite/{{ provider }}/redirect"
+name: /api/socialite/{provider}/redirect
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1653015247743
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

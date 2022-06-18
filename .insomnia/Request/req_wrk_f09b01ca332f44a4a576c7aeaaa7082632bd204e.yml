@@ -1,0 +1,32 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082632bd204e
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082603f09ba8
+modified: 1654099034986
+created: 1653015247634
+url: "{{ base_url }}/api/admin/users/1"
+name: Get user details
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_cdab2df2e49a454aac6d2cf44dd9af0f
+  - name: Accept
+    disabled: false
+    value: application/json
+    id: pair_c414e9936302486ba3f547cf3c253d2f
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247634
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

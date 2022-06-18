@@ -1,0 +1,35 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708263a8a9886
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826cbfd44d9
+modified: 1653015247573
+created: 1653015247573
+url: "{{ base_url }}/api/teams/folders"
+name: /api/teams/folders
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "nisi",
+      "invitations": [
+        "adipisci"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+  - name: Accept
+    disabled: true
+    value: string
+authentication: {}
+metaSortKey: -1653015247573
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

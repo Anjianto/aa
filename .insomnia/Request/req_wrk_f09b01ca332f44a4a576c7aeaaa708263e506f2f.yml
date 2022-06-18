@@ -1,0 +1,25 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa708263e506f2f
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082685dfa32c
+modified: 1653021770813
+created: 1653015247756
+url: "{{ base_url }}/api/user/storage"
+name: /api/user/storage
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1653015247756
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

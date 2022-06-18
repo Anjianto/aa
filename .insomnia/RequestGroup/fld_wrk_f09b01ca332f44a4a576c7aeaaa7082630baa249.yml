@@ -1,0 +1,12 @@
+_id: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082630baa249
+type: RequestGroup
+parentId: wrk_f09b01ca332f44a4a576c7aeaaa70826
+modified: 1653015247808
+created: 1653015247808
+name: Folder
+description: |-
+  
+  Create new folder for guest user with edit permission
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1653015247808

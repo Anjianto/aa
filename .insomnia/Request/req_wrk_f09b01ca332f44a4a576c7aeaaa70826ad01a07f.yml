@@ -1,0 +1,54 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826ad01a07f
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708266ce6c512
+modified: 1654092917450
+created: 1653015247627
+url: "{{ base_url }}/api/upload"
+name: Upload file for authenticated master|editor user
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_34887e0bcd874a82a396852d25da6faf
+      name: filename
+      value: contoh
+      description: ""
+    - id: pair_18c141d226114f5b993cf9457e6d3f34
+      name: path
+      value: images
+      description: ""
+    - id: pair_91adc17616b1407282ccd89093d61df0
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/wachid/Downloads/file-sample_150kB.pdf
+    - id: pair_dbf20af72964428aaf440fa3e76e5b7b
+      name: is_last
+      value: "true"
+      description: ""
+    - id: pair_f42cbc22316e4a73863a5c08b8f80248
+      name: extension
+      value: pdf
+      description: ""
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_8149f9140aaa4723b4146ce327823dd1
+  - name: Content-Type
+    value: application/json
+    id: pair_225b7fe4f7dc4b2db240847f627e9504
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_dfa3c294651944578cc1e17cd6f8da68',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1653015247627
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

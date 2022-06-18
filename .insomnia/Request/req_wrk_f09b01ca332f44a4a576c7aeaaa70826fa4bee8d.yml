@@ -1,0 +1,31 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826fa4bee8d
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa7082685dfa32c
+modified: 1653021768389
+created: 1653015247757
+url: "{{ base_url }}/api/user/password"
+name: /api/user/password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "current": "non",
+      "password": "areg"
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1653015247757
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

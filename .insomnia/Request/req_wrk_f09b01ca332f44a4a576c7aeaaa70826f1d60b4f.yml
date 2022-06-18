@@ -1,0 +1,36 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa70826f1d60b4f
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa70826ac066591
+modified: 1653566049442
+created: 1653015247619
+url: "{{ base_url }}/api/contact"
+name: Send contact message from homepage
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "kathryn31@example.com",
+      "message": "quibusdam",
+      "reCaptcha": "exercitationem"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_b300263a07be453ebc6a5a14422de440
+  - name: Accept
+    disabled: false
+    value: application/json
+    id: pair_ade4765d9af547fdaeb5a669c1bfc98c
+authentication: {}
+metaSortKey: -1653015247619
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

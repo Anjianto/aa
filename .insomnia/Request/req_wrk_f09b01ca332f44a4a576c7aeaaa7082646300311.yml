@@ -1,0 +1,29 @@
+_id: req_wrk_f09b01ca332f44a4a576c7aeaaa7082646300311
+type: Request
+parentId: fld_wrk_f09b01ca332f44a4a576c7aeaaa708266ce6c512
+modified: 1653756024897
+created: 1653015247625
+url: ""
+name: /api/browse/file/{shared}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: true
+    value: string
+    id: pair_ed45b31d7a514fe79e2ca39fa8e9c9f9
+  - name: Accept
+    disabled: true
+    value: string
+    id: pair_31e4c376cb694365b652ab2ee79f5821
+authentication: {}
+metaSortKey: -1653015247625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
